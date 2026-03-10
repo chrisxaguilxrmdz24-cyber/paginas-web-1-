@@ -1,7 +1,7 @@
 ‹Html>
 ‹headery
 ‹style>
-P {
+P C
 background-image: ur1('https://www.cabo-adventures.com/es/blog/los-delfines-son-inteligentes');
 {
 </style›
