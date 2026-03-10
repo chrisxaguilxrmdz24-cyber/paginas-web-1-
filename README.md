@@ -1,12 +1,12 @@
 ‹Html>
-‹headery
+‹header>
 ‹style>
 P {
 background-image: ur1('https://www.cabo-adventures.com/es/blog/los-delfines-son-inteligentes');
 {
 </style›
 </header>
-‹body>
+<body>
 <table>
 ＜tr>
 <th>ANIMALES</th>
