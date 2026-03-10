@@ -1,0 +1,31 @@
+‹Html>
+‹headery
+‹style>
+P {
+background-image: ur1('https://www.cabo-adventures.com/es/blog/los-delfines-son-inteligentes');
+{
+</style›
+</header>
+‹body>
+<table)
+＜tr>
+<th>ANIMALES</th>
+<th>DESCRIPCION</th>
+<th>IMAGEN</th>
+</tr>
+  <tr>
+    <td>
+DELFIN
+</td>
+くtdy
+Los delfines son mamíferos marinos cetáceos, caracterizados por su alta inteligencia, cuerpo
+hidrodinámico y sociabilidad. Miden entre 2 y 3 metros, tienen piel lisa grisácea, aleta dorsal y hocico alargado. Son carnívoros, usan la ecolocalización para cazar y viven en
+grupos complejos, respirando aire a través de un espiráculo.
+</td>
+<td>
+  <p></p>
+</td>
+</tr>
+</table>
+</body>
+</html>
