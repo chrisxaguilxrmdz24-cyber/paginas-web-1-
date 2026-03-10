@@ -15,7 +15,7 @@ background-image: ur1('https://www.cabo-adventures.com/es/blog/los-delfines-son-
 </tr>
   <tr>
     <td>
-DELFIN
+DELFINES 
 </td>
 くtdy
 Los delfines son mamíferos marinos cetáceos, caracterizados por su alta inteligencia, cuerpo
