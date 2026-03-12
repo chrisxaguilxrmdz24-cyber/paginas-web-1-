@@ -2,72 +2,110 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Tabla de Animales</title>
+<title>Animales con colores</title>
+
 <style>
-  body{
+body{
     font-family: Arial, sans-serif;
-    background:#f4f4f4;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
     text-align:center;
-  }
-  table{
+    color:#222;
+}
+
+h1{
+    color:white;
+}
+
+table{
     margin:auto;
     border-collapse: collapse;
     width:80%;
-    background:white;
-  }
-  th, td{
-    border:1px solid #ccc;
-    padding:10px;
-  }
-  th{
-    background:#4CAF50;
-    color:white;
-  }
-  img{
-    width:150px;
-    height:auto;
+}
+
+th{
+    background:#2c3e50;
+    color:#f1c40f;
+    padding:12px;
+    font-size:18px;
+}
+
+td{
+    padding:12px;
+    font-weight:bold;
+}
+
+/* Filas con diferentes colores */
+.fila1{
+    background:#ffcccc;
+    color:#8b0000;
+}
+
+.fila2{
+    background:#ccffcc;
+    color:#006400;
+}
+
+.fila3{
+    background:#ccccff;
+    color:#00008b;
+}
+
+.fila4{
+    background:#fff0b3;
+    color:#b8860b;
+}
+
+.fila5{
+    background:#e0ccff;
+    color:#4b0082;
+}
+
+img{
+    width:140px;
     border-radius:10px;
-  }
+}
 </style>
+
 </head>
 <body>
 
-<h2>Tabla de Animales</h2>
+<h1>Tabla de Animales Colorida</h1>
 
-<table>
+<table border="1">
+
 <tr>
 <th>Animal</th>
 <th>Descripción</th>
 <th>Imagen</th>
 </tr>
 
-<tr>
+<tr class="fila1">
 <td>León</td>
-<td>El león es un gran felino conocido como el rey de la selva. Vive en África y se caracteriza por su melena.</td>
+<td>Felino grande conocido como el rey de la selva.</td>
 <td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"></td>
 </tr>
 
-<tr>
+<tr class="fila2">
 <td>Elefante</td>
-<td>El elefante es el mamífero terrestre más grande del mundo y destaca por su trompa larga.</td>
+<td>El mamífero terrestre más grande del planeta.</td>
 <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg"></td>
 </tr>
 
-<tr>
+<tr class="fila3">
 <td>Tigre</td>
-<td>El tigre es un felino grande con rayas negras y naranjas. Es un depredador muy poderoso.</td>
+<td>Felino fuerte con rayas negras y pelaje naranja.</td>
 <td><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg"></td>
 </tr>
 
-<tr>
+<tr class="fila4">
 <td>Jirafa</td>
-<td>La jirafa es el animal terrestre más alto y tiene un cuello muy largo que le ayuda a alcanzar hojas.</td>
+<td>Animal muy alto con un cuello largo para alcanzar hojas.</td>
 <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Giraffe_standing.jpg"></td>
 </tr>
 
-<tr>
+<tr class="fila5">
 <td>Panda</td>
-<td>El panda es un oso originario de China que se alimenta principalmente de bambú.</td>
+<td>Oso blanco y negro que se alimenta principalmente de bambú.</td>
 <td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG"></td>
 </tr>
 
