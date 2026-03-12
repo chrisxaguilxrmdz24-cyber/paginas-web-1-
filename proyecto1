@@ -1,14 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+<meta charset="UTF-8">
 <title>Tabla de Animales</title>
+<style>
+  body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    text-align:center;
+  }
+  table{
+    margin:auto;
+    border-collapse: collapse;
+    width:80%;
+    background:white;
+  }
+  th, td{
+    border:1px solid #ccc;
+    padding:10px;
+  }
+  th{
+    background:#4CAF50;
+    color:white;
+  }
+  img{
+    width:150px;
+    height:auto;
+    border-radius:10px;
+  }
+</style>
 </head>
-
 <body>
 
 <h2>Tabla de Animales</h2>
 
-<table border="1">
+<table>
 <tr>
 <th>Animal</th>
 <th>Descripción</th>
@@ -17,32 +43,32 @@
 
 <tr>
 <td>León</td>
-<td>El león es un felino grande conocido como el rey de la selva y vive principalmente en África.</td>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" width="120"></td>
+<td>El león es un gran felino conocido como el rey de la selva. Vive en África y se caracteriza por su melena.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg"></td>
 </tr>
 
 <tr>
 <td>Elefante</td>
-<td>El elefante es el animal terrestre más grande del mundo y tiene una trompa muy larga.</td>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg" width="120"></td>
-</tr>
-
-<tr>
-<td>Águila</td>
-<td>El águila es un ave rapaz con gran vista y alas fuertes que le permiten volar muy alto.</td>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Bald_Eagle_Portrait.jpg" width="120"></td>
-</tr>
-
-<tr>
-<td>Delfín</td>
-<td>El delfín es un mamífero marino muy inteligente que vive en los océanos.</td>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Dolphin1.jpg" width="120"></td>
+<td>El elefante es el mamífero terrestre más grande del mundo y destaca por su trompa larga.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg"></td>
 </tr>
 
 <tr>
 <td>Tigre</td>
-<td>El tigre es un felino grande con rayas negras y es uno de los depredadores más fuertes.</td>
-<td><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg" width="120"></td>
+<td>El tigre es un felino grande con rayas negras y naranjas. Es un depredador muy poderoso.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Tiger.50.jpg"></td>
+</tr>
+
+<tr>
+<td>Jirafa</td>
+<td>La jirafa es el animal terrestre más alto y tiene un cuello muy largo que le ayuda a alcanzar hojas.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Giraffe_standing.jpg"></td>
+</tr>
+
+<tr>
+<td>Panda</td>
+<td>El panda es un oso originario de China que se alimenta principalmente de bambú.</td>
+<td><img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Grosser_Panda.JPG"></td>
 </tr>
 
 </table>
